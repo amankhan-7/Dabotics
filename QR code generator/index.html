@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator | AMAN KHAN</title>
+</head>
+<body>
+    <div class="box">
+        <div class="qr-header">
+            <h1>Generate QR Code</h1>
+            <input type="text" placeholder="Type your text or URL" id="qr-text">
+           
+        </div>
+        
+        <div class="qr-body"></div>
+
+        <div class="qr-footer">
+            <button href="" id="generateBtn">Generate QR</button>
+            <button><a href="" id="downloadBtn" download="QR_Code.png" style="text-decoration:none">Download QR</a></button>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+</html>
